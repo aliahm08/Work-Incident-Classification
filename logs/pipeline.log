@@ -1,0 +1,110 @@
+2026-01-17 16:32:25,009 - main - INFO - Starting WMATA Bus Overhaul Data Ingestion Pipeline
+2026-01-17 16:32:25,009 - pipeline - INFO - Starting full pipeline for fleet_performance
+2026-01-17 16:32:25,010 - pipeline - INFO - Found 5 fleet groups
+2026-01-17 16:32:25,010 - pipeline - INFO - Processing fleet: Fleet 57 7356-7409
+2026-01-17 16:32:25,010 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:32:25,312 - pipeline - ERROR - Pipeline failed: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2026-01-17 16:36:59,826 - main - INFO - Starting WMATA Bus Overhaul Data Ingestion Pipeline
+2026-01-17 16:36:59,826 - pipeline - INFO - Starting full pipeline for fleet_performance
+2026-01-17 16:36:59,827 - pipeline - INFO - Found 5 fleet groups
+2026-01-17 16:36:59,827 - pipeline - INFO - Processing fleet: Fleet 57 7356-7409
+2026-01-17 16:36:59,827 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:37:01,030 - pipeline - ERROR - Pipeline failed: ("Could not convert '999ML0001' with type str: tried to convert to int64", 'Conversion failed for column itemnum with type object')
+2026-01-17 16:38:41,691 - main - INFO - Starting WMATA Bus Overhaul Data Ingestion Pipeline
+2026-01-17 16:38:41,691 - pipeline - INFO - Starting full pipeline for fleet_performance
+2026-01-17 16:38:41,692 - pipeline - INFO - Found 5 fleet groups
+2026-01-17 16:38:41,692 - pipeline - INFO - Processing fleet: Fleet 57 7356-7409
+2026-01-17 16:38:41,692 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:38:41,867 - pipeline - ERROR - Pipeline failed: ("Expected bytes, got a 'int' object", 'Conversion failed for column on_hand_balances with type object')
+2026-01-17 16:39:24,424 - main - INFO - Starting WMATA Bus Overhaul Data Ingestion Pipeline
+2026-01-17 16:39:24,424 - pipeline - INFO - Starting full pipeline for fleet_performance
+2026-01-17 16:39:24,425 - pipeline - INFO - Found 5 fleet groups
+2026-01-17 16:39:24,425 - pipeline - INFO - Processing fleet: Fleet 57 7356-7409
+2026-01-17 16:39:24,425 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:39:24,551 - pipeline - ERROR - Pipeline failed: ("Expected bytes, got a 'int' object", 'Conversion failed for column itemnum with type object')
+2026-01-17 16:40:50,806 - main - INFO - Starting WMATA Bus Overhaul Data Ingestion Pipeline
+2026-01-17 16:40:50,806 - pipeline - INFO - Starting full pipeline for fleet_performance
+2026-01-17 16:40:50,807 - pipeline - INFO - Found 5 fleet groups
+2026-01-17 16:40:50,807 - pipeline - INFO - Processing fleet: Fleet 57 7356-7409
+2026-01-17 16:40:50,807 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:40:50,959 - pipeline - INFO - Processing fleet: Fleet 56 7300-7355
+2026-01-17 16:40:50,959 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:40:51,029 - pipeline - INFO - Processing file: Red Book 7300-7355 Job Plan Task List 10_11_2024 .xlsx
+2026-01-17 16:40:51,046 - pipeline - INFO - Processing fleet: Fleet 61 3200-3274
+2026-01-17 16:40:51,046 - pipeline - INFO - Processing file: 2. 202503_Midlife_Fleet 61_Analysis.xlsx
+2026-01-17 16:40:51,113 - pipeline - INFO - Processing fleet: Fleet 59 3100-3199
+2026-01-17 16:40:51,113 - pipeline - INFO - Processing file: 2. 20250224_Midlife_Fleet 59_Analysis.xlsx
+2026-01-17 16:40:51,191 - pipeline - INFO - Processing fleet: source
+2026-01-17 16:40:51,191 - pipeline - INFO - Processing file: 2. FLEET_55_PRE_REHAB_PERFORMANCE.xlsx
+2026-01-17 16:40:51,282 - pipeline - ERROR - Pipeline failed: ("Expected bytes, got a 'int' object", 'Conversion failed for column itemnum with type object')
+2026-01-17 16:41:30,539 - main - INFO - Starting WMATA Bus Overhaul Data Ingestion Pipeline
+2026-01-17 16:41:30,539 - pipeline - INFO - Starting full pipeline for fleet_performance
+2026-01-17 16:41:30,539 - pipeline - INFO - Found 5 fleet groups
+2026-01-17 16:41:30,539 - pipeline - INFO - Processing fleet: Fleet 57 7356-7409
+2026-01-17 16:41:30,540 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:41:30,664 - pipeline - INFO - Processing fleet: Fleet 56 7300-7355
+2026-01-17 16:41:30,665 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:41:30,729 - pipeline - INFO - Processing file: Red Book 7300-7355 Job Plan Task List 10_11_2024 .xlsx
+2026-01-17 16:41:30,747 - pipeline - INFO - Processing fleet: Fleet 61 3200-3274
+2026-01-17 16:41:30,747 - pipeline - INFO - Processing file: 2. 202503_Midlife_Fleet 61_Analysis.xlsx
+2026-01-17 16:41:30,809 - pipeline - INFO - Processing fleet: Fleet 59 3100-3199
+2026-01-17 16:41:30,809 - pipeline - INFO - Processing file: 2. 20250224_Midlife_Fleet 59_Analysis.xlsx
+2026-01-17 16:41:30,880 - pipeline - INFO - Processing fleet: source
+2026-01-17 16:41:30,880 - pipeline - INFO - Processing file: 2. FLEET_55_PRE_REHAB_PERFORMANCE.xlsx
+2026-01-17 16:41:30,968 - pipeline - ERROR - Pipeline failed: ("Expected bytes, got a 'int' object", 'Conversion failed for column itemnum with type object')
+2026-01-17 16:42:15,106 - main - INFO - Starting WMATA Bus Overhaul Data Ingestion Pipeline
+2026-01-17 16:42:15,106 - pipeline - INFO - Starting full pipeline for fleet_performance
+2026-01-17 16:42:15,107 - pipeline - INFO - Found 5 fleet groups
+2026-01-17 16:42:15,107 - pipeline - INFO - Processing fleet: Fleet 57 7356-7409
+2026-01-17 16:42:15,107 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:42:15,237 - pipeline - INFO - Processing fleet: Fleet 56 7300-7355
+2026-01-17 16:42:15,237 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:42:15,304 - pipeline - INFO - Processing file: Red Book 7300-7355 Job Plan Task List 10_11_2024 .xlsx
+2026-01-17 16:42:15,320 - pipeline - INFO - Processing fleet: Fleet 61 3200-3274
+2026-01-17 16:42:15,320 - pipeline - INFO - Processing file: 2. 202503_Midlife_Fleet 61_Analysis.xlsx
+2026-01-17 16:42:15,387 - pipeline - INFO - Processing fleet: Fleet 59 3100-3199
+2026-01-17 16:42:15,387 - pipeline - INFO - Processing file: 2. 20250224_Midlife_Fleet 59_Analysis.xlsx
+2026-01-17 16:42:15,465 - pipeline - INFO - Processing fleet: source
+2026-01-17 16:42:15,465 - pipeline - INFO - Processing file: 2. FLEET_55_PRE_REHAB_PERFORMANCE.xlsx
+2026-01-17 16:42:15,554 - pipeline - ERROR - Pipeline failed: ("Expected bytes, got a 'int' object", 'Conversion failed for column itemnum with type object')
+2026-01-17 16:51:55,258 - main - INFO - Starting WMATA Bus Overhaul Data Ingestion Pipeline
+2026-01-17 16:51:55,258 - pipeline - INFO - Starting full pipeline for fleet_performance
+2026-01-17 16:51:55,260 - pipeline - INFO - Found 6 fleet groups
+2026-01-17 16:51:55,260 - pipeline - INFO - Processing fleet: Fleet 57 7356-7409
+2026-01-17 16:51:55,260 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:51:55,454 - pipeline - INFO - Processing fleet: Fleet 56 7300-7355
+2026-01-17 16:51:55,454 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-17 16:51:55,523 - pipeline - INFO - Processing file: Red Book 7300-7355 Job Plan Task List 10_11_2024 .xlsx
+2026-01-17 16:51:55,543 - pipeline - INFO - Processing fleet: Fleet 61 3200-3274
+2026-01-17 16:51:55,543 - pipeline - INFO - Processing file: 2. 202503_Midlife_Fleet 61_Analysis.xlsx
+2026-01-17 16:51:55,611 - pipeline - INFO - Processing fleet: Fleet 59 3100-3199
+2026-01-17 16:51:55,611 - pipeline - INFO - Processing file: 2. 20250224_Midlife_Fleet 59_Analysis.xlsx
+2026-01-17 16:51:55,683 - pipeline - INFO - Processing file: Rehab Records (Age-Duration) 2025-3-21.xls
+2026-01-17 16:51:55,684 - pipeline - ERROR - Error processing /Users/ali/Library/CloudStorage/GoogleDrive-aliahm1208@gmail.com/My Drive/WMATA-bus-overhaul-data-analytics/raw-import-from-client/Fleet 59 3100-3199/Rehab Records (Age-Duration) 2025-3-21.xls: File is not a zip file
+2026-01-17 16:51:55,689 - pipeline - INFO - Processing fleet: source
+2026-01-17 16:51:55,689 - pipeline - INFO - Processing file: 2. FLEET_55_PRE_REHAB_PERFORMANCE.xlsx
+2026-01-17 16:51:55,738 - pipeline - INFO - Processing fleet: references
+2026-01-17 16:51:55,738 - pipeline - INFO - Processing file: 4. SR1947 (2830-2993) Midlife OH Master BOM (1).xlsx
+2026-01-17 16:51:55,993 - pipeline - INFO - Pipeline completed in 0:00:00.734886
+2026-01-22 10:28:25,006 - main - INFO - Starting WMATA Bus Overhaul Data Ingestion Pipeline
+2026-01-22 10:28:25,006 - pipeline - INFO - Starting full pipeline for fleet_performance
+2026-01-22 10:28:25,008 - pipeline - INFO - Found 6 fleet groups
+2026-01-22 10:28:25,008 - pipeline - INFO - Processing fleet: Fleet 57 7356-7409
+2026-01-22 10:28:25,008 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-22 10:28:26,565 - pipeline - INFO - Processing fleet: Fleet 56 7300-7355
+2026-01-22 10:28:26,565 - pipeline - INFO - Processing file: 4. Rehab 1946. 1976 02.26.25.xlsx
+2026-01-22 10:28:26,641 - pipeline - INFO - Processing file: Red Book 7300-7355 Job Plan Task List 10_11_2024 .xlsx
+2026-01-22 10:28:26,659 - pipeline - INFO - Processing fleet: Fleet 61 3200-3274
+2026-01-22 10:28:26,659 - pipeline - INFO - Processing file: 2. 202503_Midlife_Fleet 61_Analysis.xlsx
+2026-01-22 10:28:26,716 - pipeline - INFO - Processing fleet: Fleet 59 3100-3199
+2026-01-22 10:28:26,716 - pipeline - INFO - Processing file: 2. 20250224_Midlife_Fleet 59_Analysis.xlsx
+2026-01-22 10:28:26,777 - pipeline - INFO - Processing file: Rehab Records (Age-Duration) 2025-3-21.xls
+2026-01-22 10:28:26,962 - pipeline - INFO - Processing fleet: source
+2026-01-22 10:28:26,962 - pipeline - INFO - Processing file: 2. FLEET_55_PRE_REHAB_PERFORMANCE.xlsx
+2026-01-22 10:28:26,994 - pipeline - INFO - Processing fleet: references
+2026-01-22 10:28:26,994 - pipeline - INFO - Processing file: 4. SR1947 (2830-2993) Midlife OH Master BOM (1).xlsx
+2026-01-22 10:28:27,227 - pipeline - INFO - Pipeline completed in 0:00:02.220781
